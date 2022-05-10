@@ -6,7 +6,7 @@ import { API_VERSION } from './constants';
 @Controller()
 export class AppController {
   @Get('/running')
-  @ApiOperation({ summary: 'Verique version BFF' })
+  @ApiOperation({ summary: 'Version running' })
   @ApiResponse({ status: 200, description: 'Endpoint executed with sucess' })
   @ApiResponse({
     status: 400,
