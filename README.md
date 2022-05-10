@@ -81,21 +81,12 @@ Mais conhecido como um superset do Javascript, ou seja, um conjunto de ferrament
 |           JavaScript            |           TypeScript            |
 |---------------------------------|---------------------------------|
 |       Dinâmicamente Tipada      | 	TypeScript é um superconjunto de Javascript que compila em JavaScript simples.   |
-|       Não há necessidade de tipagem      |     Apresenta os erros em tempo de codificação                  |
+|       Não há necessidade de tipagem      |     Apresenta os erros em tempo de codificação |
 |      JavaScript é uma linguagem baseada em intérprete para adicionar interatividade a uma página da web      |     Feedback mais rápido   |
 |      Javascript é uma linguagem de script.      |     TypeScript é uma linguagem de programação orientada a objetos.   |
 |      Javascript não precisa de um compilador. Ele roda no navegador da web.   |      navegador da web.	TypeScript requer um compilador TypeScript para ser convertido em um arquivo JavaScript.   |
 |       JavaScript não é puramente orientado a objetos. É baseado em protótipo. Não possui interfaces.      |     TypeScript é uma linguagem de programação orientada a objetos e é baseada em classes. Pode usar classes, herança, interfaces e modificadores.   |
 |       JavaScript é executado no lado do cliente.      |     	O TypeScript é executado no lado do cliente e também no lado do servidor.   |
-|       Javascript não possui verificação de tipo estático.	TypeScript possui verificação de tipo estático.
-Modularidade      |     	TypeScript possui verificação de tipo estático.   |
+|       Javascript não possui verificação de tipo estático.	TypeScript possui verificação de tipo estático.   |     	TypeScript possui verificação de tipo estático.   |
 |       Javascript não permite suporte a módulos.    |     O Typescript pode importar arquivos e módulos.   |
 
-
-
-Método de execução
-JavaScript é executado no lado do cliente.	O TypeScript é executado no lado do cliente e também no lado do servidor.
-Verificação estática
-Javascript não possui verificação de tipo estático.	TypeScript possui verificação de tipo estático.
-Modularidade
-Javascript não permite suporte a módulos.	O Typescript pode importar arquivos e módulos.
