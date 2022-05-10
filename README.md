@@ -71,3 +71,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Por que TYPESCRIPT
+
+Mais conhecido como um superset do Javascript, ou seja, um conjunto de ferramentas, o TypeScript foi criado com o objetivo de incluir recursos que não estão presentes no JS. Por meio dele é possível definir a tipagem estática, parâmetros e retorno de funções.
+
+## Comparativo
+
+|     JavaScript      |     TypeScript      |
+|---------------------|---------------------|
+| Dinâmicamente Tipada |     TypeScript      |
