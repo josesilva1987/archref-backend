@@ -9,8 +9,4 @@ const API_NAME = pkg.name;
 const API_VERSION = pkg.version;
 const API_DESCRIPTION = pkg.description;
 
-export {
-    API_NAME,
-    API_VERSION,
-    API_DESCRIPTION
-  };
+export { API_NAME, API_VERSION, API_DESCRIPTION };

@@ -14,9 +14,6 @@ export class AppController {
     type: HttpExceptionDto,
   })
   getVersionEndpoint(): string {
-    const date = new Date().toISOString();
-    const { ENV } = process.env;
-
     return `Running Version ${API_VERSION}`;
   }
 }

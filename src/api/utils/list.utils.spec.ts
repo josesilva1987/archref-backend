@@ -1,4 +1,4 @@
-import { DateUtils } from "./date.utils"
+import { DateUtils } from './date.utils';
 
 describe('DateUtils', () => {
   it('should be invalid', () => {
@@ -8,4 +8,4 @@ describe('DateUtils', () => {
   it('should be false filter', () => {
     expect(DateUtils.isFilteredDate(new Date(), {})).toEqual(false);
   });
-})
+});

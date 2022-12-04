@@ -1,5 +1,5 @@
-import { Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
+import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
@@ -8,9 +8,6 @@ import { ConfigModule } from "@nestjs/config";
       envFilePath: '.env',
     }),
   ],
-  providers: [
-
-  ]
+  providers: [],
 })
-
-export class ServiceModule { }
+export class ServiceModule {}

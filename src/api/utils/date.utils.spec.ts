@@ -9,21 +9,27 @@ describe('DateUtils.isFilteredDate', () => {
       firstDate: new Date('01-01-2021'),
       lastDate: new Date('01-31-2021'),
     };
-    expect(DateUtils.isFilteredDate(new Date('01-05-2021'), filterParam)).toEqual(true);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-05-2021'), filterParam),
+    ).toEqual(true);
   });
   it('should be false, filterParam with firstDate and lastDate null', () => {
     const filterParam = {
       firstDate: null,
       lastDate: null,
     };
-    expect(DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam)).toEqual(false);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam),
+    ).toEqual(false);
   });
   it('should be false, filterParam with firstDate and lastDate out of date', () => {
     const filterParam = {
       firstDate: new Date('01-05-2021'),
       lastDate: new Date('01-31-2021'),
     };
-    expect(DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam)).toEqual(false);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam),
+    ).toEqual(false);
   });
   it('should be true, filterParam with firstDate', () => {
     const filterParam = {
@@ -35,19 +41,25 @@ describe('DateUtils.isFilteredDate', () => {
     const filterParam = {
       firstDate: new Date('01-31-2021'),
     };
-    expect(DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam)).toEqual(false);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-01-2021'), filterParam),
+    ).toEqual(false);
   });
   it('should be false, filterParam with date great than lastDate', () => {
     const filterParam = {
       lastDate: new Date('01-05-2021'),
     };
-    expect(DateUtils.isFilteredDate(new Date('01-31-2021'), filterParam)).toEqual(false);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-31-2021'), filterParam),
+    ).toEqual(false);
   });
   it('should be true, filterParam with lastDate', () => {
     const filterParam = {
       lastDate: new Date('01-31-2021'),
     };
-    expect(DateUtils.isFilteredDate(new Date('01-05-2021'), filterParam)).toEqual(true);
+    expect(
+      DateUtils.isFilteredDate(new Date('01-05-2021'), filterParam),
+    ).toEqual(true);
   });
 });
 

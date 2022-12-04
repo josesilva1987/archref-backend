@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { LoggingInterceptor } from './interceptors/logging.interceptor';
+import { DemoModule } from './modules/demo/demo.module';
 @Module({
   controllers: [],
   providers: [
@@ -9,6 +10,6 @@ import { LoggingInterceptor } from './interceptors/logging.interceptor';
       useClass: LoggingInterceptor,
     },
   ],
-  imports: [],
+  imports: [DemoModule],
 })
-export class ApiModule { }
+export class ApiModule {}

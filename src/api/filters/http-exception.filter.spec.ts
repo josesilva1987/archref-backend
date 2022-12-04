@@ -19,7 +19,7 @@ describe('SampleService', () => {
           status: () => {
             return {
               json: (obj: unknown) => obj,
-            }
+            };
           },
         };
         return response;
@@ -46,6 +46,4 @@ describe('SampleService', () => {
 
     expect(filter.catch(exception, mockContext)).toBeFalsy();
   });
-
-
 });
